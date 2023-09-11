@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+## OHCHALLE
+![oh-main](./images-readme/oh-main.png)
+OHCHALLE은 다양한 종목의 운동 크루를 만들고 운동 스케줄과 데이터를 기록할 수 있는 서비스입니다.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+오늘부터 운동은 오챌과 함께!
 
-## Available Scripts
+## KEY FEATURES
+<details>
+<summary>운동 크루 서비스</summary>
 
-In the project directory, you can run:
++ 러닝, 웨이트, 자전거, 요가, 필라테스 등 다양한 운동 크루를 만들 수 있어요.
 
-### `yarn start`
++ 마음에 드는 크루가 있다면 바로 참가 신청하기!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![oh-crew-screen](./images-readme/oh-crew-screen.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+</details>
 
-### `yarn test`
+<details>
+<summary>나만의 운동 플래너</summary>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
++ 나만의 운동 스케줄, 데이터를 기록할 수 있는 플래너 제공!
 
-### `yarn build`
++ 매주 운동 목표를 설정하고 달성하세요.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![oh-planner-screen](./images-readme/oh-planner-screen.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+</details>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<details>
+<summary>OHCHALLE SNS</summary>
 
-### `yarn eject`
++ 신기록 달성, 오운완을 자랑하고 공유해요!
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
++ 댓글, 좋아요 기능으로 즐겁게 소통해요.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+</details>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## SERVICE ARCHITECTURE
+![oh-service-architecture](./images-readme/oh-service-architecture.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## STACK
+<div>
+  <img src="https://img.shields.io/badge/Amazon S3-569A31?style=for-the-badge&logo=Amazon S3&logoColor=white" />
+  <img src="https://img.shields.io/badge/Amazon CloudFront-4D27A8?style=for-the-badge&logo=&logoColor=white" />
+  <img src="https://img.shields.io/badge/Amazon Route53-4D27A8?style=for-the-badge&logo=&logoColor=white" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=TypeScript&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=black" />
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=black" />
+  <img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=Axios&logoColor=white" />
+  <img src="https://img.shields.io/badge/React Query-FF4154?style=for-the-badge&logo=React Query&logoColor=white" />
+  <img src="https://img.shields.io/badge/Redux Toolkit-764ABC?style=for-the-badge&logo=Redux&logoColor=white" />
+  <img src="https://img.shields.io/badge/React Router-CA4245?style=for-the-badge&logo=React Router&logoColor=white" />
+  <img src="https://img.shields.io/badge/styled-components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kakao Maps API-FFCD00?style=for-the-badge&logo=Kakao&logoColor=black" />
+</div>
